@@ -1,4 +1,8 @@
 # DP-ImgSyn
+
+This code is related to the paper titled, "DP-ImgSyn: Dataset Alignment for Obfuscated, Differentially Private Image Synthesis"
+
+
 **A non-generative Differentially Private Image Synthesis (DP-ImgSyn) framework to sanitize and release confidential data with DP guarantees to address these issues.**
 
 ### Setup
