@@ -1,0 +1,27 @@
+CUBLAS_WORKSPACE_CONFIG=:4096:8 CUDA_VISIBLE_DEVICES=3 python datafree_kd_public_img_init_DP_celeba_hair.py \
+--method deepinv \
+--dataset celeba_gender \
+--dataset_init places365_32x32_celeba_gender_transformations \
+--batch_size 60 \
+--teacher resnet18 \
+--student resnet18 \
+--epsilon 1 \
+--lr 0.1 \
+--epochs 625 \
+--kd_steps 400 \
+--ep_steps 400 \
+--g_steps 1 \
+--lr_g 0.1 \
+--adv 0 \
+--bn 10 \
+--oh 1 \
+--T 20 \
+--act 0 \
+--balance 0 \
+--gpu 0 \
+--seed 1 \
+--num_samples 162770 \
+--save_dir run/deepinv_celeba_gender_DP_init_places365_resnet18_resnet18_1_epsilon_1_iter \
+--log_tag deepinv_celeba_gender_DP_init_places365_resnet18_resnet18_1_epsilon_1_iter \
+--path_save_img /local/a/<set_path>/artificial_images/deepinv_celeba_gender_DP_init_places365_resnet18_resnet18_1_epsilon_1_iter/img/ \
+--path_save_targets /local/a/<set_path>/artificial_images/deepinv_celeba_gender_DP_init_places365_resnet18_resnet18_1_epsilon_1_iter/targets/

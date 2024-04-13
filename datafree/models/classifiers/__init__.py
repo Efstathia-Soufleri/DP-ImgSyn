@@ -1,0 +1,1 @@
+from . import lenet, wresnet, vgg, resnet, mobilenetv2, shufflenetv2, resnet_tiny, resnet_in, resnet_group_norm, resnet_evo_norm, resnet_64x64
