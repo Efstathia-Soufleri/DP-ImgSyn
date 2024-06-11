@@ -1,7 +1,25 @@
 # DP-ImgSyn
 
-This code is related to the paper titled, "DP-ImgSyn: Dataset Alignment for Obfuscated, Differentially Private Image Synthesis"
+This code is related to the paper titled, "DP-ImgSyn: Dataset Alignment for Obfuscated, Differentially Private Image Synthesis", Transactions on Machine Learning Research.
 
+The link to the paper is: https://openreview.net/pdf?id=KleJZ9ZzYw
+
+Accepted at TMLR 2024, if you use this github repo consider citing our work
+
+```bibtex
+@article{
+soufleridp,
+title={DP-ImgSyn: Dataset Alignment for Obfuscated, Differentially Private Image Synthesis},
+author={Soufleri, Efstathia and Ravikumar, Deepak and Roy, Kaushik},
+journal={Transactions on Machine Learning Research}
+}
+```
+
+@article{soufleridp,
+  title={DP-ImgSyn: Dataset Alignment for Obfuscated, Differentially Private Image Synthesis},
+  author={Soufleri, Efstathia and Ravikumar, Deepak and Roy, Kaushik},
+  journal={Transactions on Machine Learning Research}
+}
 
 **A non-generative Differentially Private Image Synthesis (DP-ImgSyn) framework to sanitize and release confidential data with DP guarantees to address these issues.**
 
